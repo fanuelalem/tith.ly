@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tith.ly/static/css/main.d0b9a719.chunk.css",
+    "main.js": "/tith.ly/static/js/main.be124db5.chunk.js",
+    "main.js.map": "/tith.ly/static/js/main.be124db5.chunk.js.map",
+    "runtime-main.js": "/tith.ly/static/js/runtime-main.4d31deb2.js",
+    "runtime-main.js.map": "/tith.ly/static/js/runtime-main.4d31deb2.js.map",
+    "static/js/2.9d2e39f4.chunk.js": "/tith.ly/static/js/2.9d2e39f4.chunk.js",
+    "static/js/2.9d2e39f4.chunk.js.map": "/tith.ly/static/js/2.9d2e39f4.chunk.js.map",
+    "static/js/3.f98538e8.chunk.js": "/tith.ly/static/js/3.f98538e8.chunk.js",
+    "static/js/3.f98538e8.chunk.js.map": "/tith.ly/static/js/3.f98538e8.chunk.js.map",
+    "index.html": "/tith.ly/index.html",
+    "static/css/main.d0b9a719.chunk.css.map": "/tith.ly/static/css/main.d0b9a719.chunk.css.map",
+    "static/js/2.9d2e39f4.chunk.js.LICENSE.txt": "/tith.ly/static/js/2.9d2e39f4.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/tith.ly/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d31deb2.js",
+    "static/js/2.9d2e39f4.chunk.js",
+    "static/css/main.d0b9a719.chunk.css",
+    "static/js/main.be124db5.chunk.js"
+  ]
+}
