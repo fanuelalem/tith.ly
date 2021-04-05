@@ -1,0 +1,249 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+ 
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.form-check {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+align-content: center;
+text-align-last: center;
+
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+label{
+  display:flex;
+}
+input[type="checkbox"].onlinecheckbox + label {
+  color: black;
+  cursor: pointer;
+ }
+ label {
+   width:fit-content
+  }
+input[type='checkbox']{
+  cursor: pointer;
+  opacity: 0;
+  position: absolute;
+}
+input[type="checkbox"].onlinecheckbox:checked + label {
+  background-color: #FFD700;
+  padding-right:5px;
+   
+  cursor: pointer;
+  }
+  
+  
+label::before{
+  content:'';
+  width:1em;
+  height:1em;
+  border:.05em solid black;
+  border-radius: .15em;
+  margin-right: .5em;
+ }
+
+label:hover::before,
+input[type='checkbox']:hover + label::before
+{
+  background-color:white;
+ 
+}
+*{
+  box-sizing: border-box;
+}
+
+.checkbox-container{
+  display: flex;
+  align-items: center;
+}
+ 
+/* input[type='checkbox']:checked + label::before{
+   background-color: #27ae60;
+   display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
+ 
+} */
+.world input[type='checkbox']:checked + label::before{
+  background-color:white;
+  color:royalblue
+;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f57d";
+    
+}
+.moon{
+  margin-bottom: 10px;
+}
+.sun{
+  margin-bottom: 10px;
+ }
+ .world{
+  margin-bottom: 10px;
+ }
+.smiley{
+  margin-bottom: 10px;
+ }
+ .plus{
+  margin-bottom: 10px;
+}
+.minus{
+  margin-bottom: 10px;
+ }
+ .at{
+  margin-bottom: 10px;
+ }
+.bell{
+  margin-bottom: 10px;
+ }
+ .cam{
+  margin-bottom: 10px;
+ }
+.bell{
+  margin-bottom: 10px;
+ }
+.sun input[type='checkbox']:checked + label::before{
+  background-color:white;
+  color:#FFD700;
+      display: inline-block;
+ ;
+      font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f185";
+}
+.moon input[type='checkbox']:checked + label::before{
+    display: inline-block;
+   background-color:white;
+
+ color:silver
+;
+ font-style: normal;
+   font-variant: normal;
+   text-rendering: auto;
+   -webkit-font-smoothing: antialiased;
+   font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f186";
+}
+.smiley input[type='checkbox']:checked + label::before{
+  background-color:white;
+  color:orange;
+     display: inline-block;
+ ;
+     font-style: normal;
+   font-variant: normal;
+   text-rendering: auto;
+   -webkit-font-smoothing: antialiased;
+   font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f118";
+}
+
+.plus input[type='checkbox']:checked + label::before{
+    display: inline-block;
+  background-color:white;
+  color:#27ae60;
+;
+     font-style: normal;
+   font-variant: normal;
+   text-rendering: auto;
+   -webkit-font-smoothing: antialiased;
+   font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f055";
+}
+.minus input[type='checkbox']:checked + label::before{
+  background-color:white;
+  color:tomato;   
+  display: inline-block;
+ 
+;
+     font-style: normal;
+   font-variant: normal;
+   text-rendering: auto;
+   -webkit-font-smoothing: antialiased;
+   font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f056";
+}
+.at input[type='checkbox']:checked + label::before{
+  background-color:white;
+  color:#61dafb; 
+     display: inline-block;
+ ;
+     font-style: normal;
+   font-variant: normal;
+   text-rendering: auto;
+   -webkit-font-smoothing: antialiased;
+   font-family: "Font Awesome 5 Free"; font-weight: 800; content: "\f1fa";
+}
+.bell input[type='checkbox']:checked + label::before{
+    display: inline-block;
+ color:#434343;
+ background-color:white;
+ ;
+     font-style: normal;
+   font-variant: normal;
+   text-rendering: auto;
+   -webkit-font-smoothing: antialiased;
+   font-family: "Font Awesome 5 Free"; font-weight: 800; content: "\f0f3";
+}
+
+.cam input[type='checkbox']:checked + label::before{
+    display: inline-block;
+   color:slategrey;
+   background-color:white;
+     font-style: normal;
+   font-variant: normal;
+   text-rendering: auto;
+   -webkit-font-smoothing: antialiased;
+   font-family: "Font Awesome 5 Free"; font-weight: 800; content: "\f030";
+}
+.icon input[type='checkbox']:checked + label::before{
+  color:white;
+  background-color:#434343;   
+  display: inline-block;
+ ;
+     font-style: normal;
+   font-variant: normal;
+   text-rendering: auto;
+   -webkit-font-smoothing: antialiased;
+   font-family: "Font Awesome 5 Free"; font-weight: 800; content: "\f017";
+}
